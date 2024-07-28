@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Dish</title>
+</head>
+
+<style>
+    
+</style>
+<body>
+    <h1>Add a New Dish</h1>
+    <form action="/addmenu" method="POST">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="price">Price:</label><br>
+        <input type="number" id="price" name="price" required><br>
+
+        <label for="category">Category:</label><br>
+        <input type="text" id="category" name="category" required><br>
+
+        <input name='image' type="file">
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
